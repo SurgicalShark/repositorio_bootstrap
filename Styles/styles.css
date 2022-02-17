@@ -18,8 +18,8 @@ h1 {
     align-items: center;
     justify-content: space-evenly;
     grid-row-gap: 30%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 footer {
-    bottom: 500px !important;
+    margin-top: 700px;
 }
