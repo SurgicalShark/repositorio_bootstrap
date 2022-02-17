@@ -1,0 +1,25 @@
+body {
+    
+}
+h1 {
+    text-align: center;
+    margin-top: 3%;
+}
+.carousel-inner {
+    margin-left: 25% !important;
+    width: 50% !important;
+}
+#cards {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-row-gap: 30%;
+    margin-top: 2%;
+}
+footer {
+    bottom: 500px !important;
+}
