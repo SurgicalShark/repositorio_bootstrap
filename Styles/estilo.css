@@ -1,20 +1,25 @@
+/* titulos */
+/* body */
+/* condicionales */
+h1 {
+  color: #ec1d01; }
+
 @media screen and (max-width: 400px) {
-  h1 {
-    color: #ec1d01;
+  body h1 {
     text-align: center;
     margin-top: 3%; }
-  h2 {
+  body h2 {
     color: black;
     text-align: center;
     margin-top: 3%; }
-  .tituloSegundoCarrusel {
+  body .tituloSegundoCarrusel {
     margin-top: 20% !important; }
-  #carouselExampleIndicatorss {
+  body #carouselExampleIndicatorss {
     margin-top: 20% !important; }
-  .carousel-inner {
+  body .carousel-inner {
     margin-left: 25% !important;
     width: 50% !important; }
-  #cards {
+  body #cards {
     display: grid;
     position: relative;
     grid-template-columns: 1fr;
@@ -24,10 +29,10 @@
     justify-content: space-evenly;
     grid-row-gap: 5%;
     margin-top: 12%; }
-  .boton {
+  body .boton {
     margin-top: 5%;
     margin-left: 30%; }
-  .animation {
+  body .animation {
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -37,7 +42,7 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 20px; }
-  .animation:before {
+  body .animation:before {
     content: '';
     position: absolute;
     top: 6px;
@@ -48,9 +53,9 @@
     transition: 0.5s ease-in-out;
     transform: scaleY(1);
     transition-delay: 0.5s; }
-  .animation:hover:before {
+  body .animation:hover:before {
     transform: scaleY(0); }
-  .animation:after {
+  body .animation:after {
     content: '';
     position: absolute;
     left: 6px;
@@ -60,26 +65,26 @@
     background: #fff;
     transition: 0.5s ease-in-out;
     transform: scaleX(1); }
-  .animation:hover:after {
+  body .animation:hover:after {
     transform: scaleX(0); }
-  .animation span {
+  body .animation span {
     position: relative;
     z-index: 3; }
-  #formmm {
+  body #formmm {
     margin: 3%;
     padding: 3%; }
-  .foryouuu {
+  body .foryouuu {
     margin: 3%;
     padding: 3%; }
-  .card-img-top {
+  body .card-img-top {
     width: 100%;
     height: 40%; }
-  .formShipments {
+  body .formShipments {
     padding: 10%;
     margin: 10%; }
   footer {
     background-color: black;
-    margin-top: 19%; }
+    margin-top: 210%; }
     footer section {
       background-color: black;
       margin-top: -15%; }
@@ -90,7 +95,6 @@
 
 @media screen and (min-width: 1200px) {
   body h1 {
-    color: #ec1d01;
     text-align: center;
     margin-top: 3%; }
   body h2 {
@@ -172,7 +176,7 @@
     margin: 10%; }
   footer {
     background-color: black;
-    margin-top: 10%; }
+    margin-top: 20%; }
     footer section {
       background-color: black;
       margin-top: -4%; }
