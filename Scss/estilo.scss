@@ -37,8 +37,10 @@
 
 
 
+/* Formato Movil */
 @media screen and (max-width: 400px) {
     body {
+        /* Títulos y subtitulos de seccion */
         h1 {
         text-align: center;
         margin-top: 3%;
@@ -47,6 +49,7 @@
             text-align: center;
             margin-top: 3%;
         }
+        /* Carruseles de imagenes */
         .tituloSegundoCarrusel {
             margin-top: 20% !important;
         }
@@ -57,6 +60,7 @@
             margin-left: 25% !important;
             width: 50% !important;
         }
+        /* tarjetas de la sección "productos" */
         #cards {
             display: grid;
             position: relative;
@@ -68,6 +72,7 @@
             grid-row-gap: 5%;
             margin-top: 12%;
         }
+        /* botones con animación */
         .boton {
             margin-top: 5%;
             margin-left: 30%;
@@ -116,10 +121,12 @@
             position: relative;
             z-index: 3;
         }
+        /* formulario de inicio de sesion */
         #formmm{
             margin: 3%;
             padding: 3%;
         }
+        /* tarjetas de la seccion "for you" */
         .foryouuu {
             margin: 3%;
             padding: 3%;
@@ -133,6 +140,7 @@
             margin: 10%;
         }
     }
+    /* Footer */
     footer {
         background-color: black;
         margin-top: 210%;
@@ -148,8 +156,11 @@
         }
     }
 }
+
+/* Formato Escritorio */
 @media screen and (min-width: 1200px) {
     body {
+        /* Títulos y subtitulos de seccion */
         h1 {
             text-align: center;
             margin-top: 3%;
@@ -158,6 +169,7 @@
             text-align: center;
             margin-top: 3%;
         }
+        /* Carruseles de imagenes */
         .carousel-inner {
             margin-left: 25%;
             width: 50%;
@@ -172,6 +184,7 @@
             margin-left: 25% !important;
             width: 50% !important;
         }
+        /* tarjetas de la sección "productos" */
         #cards {
             display: grid;
             position: relative;
@@ -183,6 +196,7 @@
             grid-row-gap: 30%;
             margin-top: 4%;
         }
+        /* botones con animación */
         .boton {
             margin-top: 5%;
             margin-left: 37%;
@@ -231,10 +245,12 @@
             position: relative;
             z-index: 3;
         }
+        /* formulario de inicio de sesion */
         #formmm{
             margin: 3%;
             padding: 3%;
         }
+        /* tarjetas de la seccion "for you" */
         .foryouuu {
             margin: 3%;
             padding: 3%;
@@ -248,6 +264,7 @@
             margin: 10%;
         }
     }
+    /* Footer */
     footer {
         background-color: black;
         margin-top: 20%;

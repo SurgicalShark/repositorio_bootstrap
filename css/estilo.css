@@ -1,16 +1,30 @@
+@charset "UTF-8";
 /* titulos */
 /* body */
 /* condicionales */
 body {
-  background-color: #eeecd6;
+  background-color: black;
 }
 
 h1 {
-  color: #1d7738;
+  color: #3487a8;
+}
+
+h2 {
+  color: white;
 }
 
 /* Mixin */
+/* Formato Movil */
 @media screen and (max-width: 400px) {
+  body {
+    /* Títulos y subtitulos de seccion */
+    /* Carruseles de imagenes */
+    /* tarjetas de la sección "productos" */
+    /* botones con animación */
+    /* formulario de inicio de sesion */
+    /* tarjetas de la seccion "for you" */
+  }
   body h1 {
     text-align: center;
     margin-top: 3%;
@@ -118,6 +132,7 @@ h1 {
     padding: 10%;
     margin: 10%;
   }
+  /* Footer */
   footer {
     background-color: black;
     margin-top: 210%;
@@ -134,7 +149,16 @@ h1 {
   }
 }
 
+/* Formato Escritorio */
 @media screen and (min-width: 1200px) {
+  body {
+    /* Títulos y subtitulos de seccion */
+    /* Carruseles de imagenes */
+    /* tarjetas de la sección "productos" */
+    /* botones con animación */
+    /* formulario de inicio de sesion */
+    /* tarjetas de la seccion "for you" */
+  }
   body h1 {
     text-align: center;
     margin-top: 3%;
@@ -246,6 +270,7 @@ h1 {
     padding: 10%;
     margin: 10%;
   }
+  /* Footer */
   footer {
     background-color: black;
     margin-top: 20%;
