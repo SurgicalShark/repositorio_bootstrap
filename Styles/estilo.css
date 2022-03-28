@@ -3,15 +3,8 @@
 /* body */
 /* condicionales */
 body {
-  background-color: black; }
+  background-color: beige; }
 
-h1 {
-  color: #3487a8; }
-
-h2 {
-  color: white; }
-
-/* Mixin */
 /* Formato Movil */
 @media screen and (max-width: 400px) {
   body {
@@ -23,27 +16,40 @@ h2 {
     /* tarjetas de la seccion "for you" */ }
     body h1 {
       text-align: center;
-      margin-top: 3%; }
+      margin-top: 3%;
+      font-family: 'Alfa Slab One', cursive; }
     body h2 {
       text-align: center;
       margin-top: 3%; }
+    body .imgCarrousel {
+      width: 100%;
+      height: 50%; }
     body .tituloSegundoCarrusel {
-      margin-top: 20% !important; }
+      margin-top: 45% !important; }
     body #carouselExampleIndicatorss {
       margin-top: 20% !important; }
     body .carousel-inner {
-      margin-left: 25% !important;
-      width: 50% !important; }
+      margin-left: 16% !important;
+      width: 70% !important; }
     body #cards {
       display: grid;
       position: relative;
       grid-template-columns: 1fr;
-      grid-template-rows: 400px;
       justify-items: center;
       align-items: center;
       justify-content: space-evenly;
-      grid-row-gap: 5%;
       margin-top: 12%; }
+    body .card {
+      width: 288px;
+      height: 580px;
+      margin-top: 28%; }
+    body .card-body {
+      background-color: #dfdfbd; }
+    body .card-text {
+      margin-top: 30%; }
+    body .card-img-top {
+      width: 60%;
+      height: 60%; }
     body .boton {
       margin-top: 5%;
       margin-left: 30%; }
@@ -64,7 +70,7 @@ h2 {
       left: -2px;
       width: calc(100% + 4px);
       height: calc(100% - 12px);
-      background: #fff;
+      background: beige;
       transition: 0.5s ease-in-out;
       transform: scaleY(1);
       transition-delay: 0.5s; }
@@ -77,7 +83,7 @@ h2 {
       top: -2px;
       height: calc(100% + 4px);
       width: calc(100% - 12px);
-      background: #fff;
+      background: beige;
       transition: 0.5s ease-in-out;
       transform: scaleX(1); }
     body .animation:hover:after {
@@ -120,15 +126,30 @@ h2 {
     /* tarjetas de la seccion "for you" */ }
     body h1 {
       text-align: center;
-      margin-top: 3%; }
+      margin-top: 3%;
+      font-family: 'Alfa Slab One', cursive; }
     body h2 {
       text-align: center;
-      margin-top: 3%; }
+      margin-top: 3%;
+      font-family: 'Alfa Slab One', cursive; }
+    body .fondo {
+      width: 100%;
+      height: 100vh; }
+    body #carouselExampleIndicators {
+      width: 100%;
+      right: 100; }
+    body #carouselExampleIndicatorss {
+      width: 100%;
+      right: 100;
+      top: -200px; }
+    body .imgCarrousel {
+      width: 100%;
+      height: 200%; }
     body .carousel-inner {
       margin-left: 25%;
       width: 50%; }
     body .tituloSegundoCarrusel {
-      margin-top: 20% !important; }
+      margin-top: -6% !important; }
     body #carouselExampleIndicatorss {
       margin-top: 20% !important; }
     body .carousel-inner {
@@ -144,6 +165,14 @@ h2 {
       justify-content: space-evenly;
       grid-row-gap: 30%;
       margin-top: 4%; }
+    body .card {
+      width: 288px;
+      height: 580px;
+      margin-top: 28%; }
+    body .card-body {
+      background-color: #dfdfbd; }
+    body .card-text {
+      margin-top: 30%; }
     body .boton {
       margin-top: 5%;
       margin-left: 37%; }
@@ -164,7 +193,7 @@ h2 {
       left: -2px;
       width: calc(100% + 4px);
       height: calc(100% - 12px);
-      background: #fff;
+      background: beige;
       transition: 0.5s ease-in-out;
       transform: scaleY(1);
       transition-delay: 0.5s; }
@@ -177,7 +206,7 @@ h2 {
       top: -2px;
       height: calc(100% + 4px);
       width: calc(100% - 12px);
-      background: #fff;
+      background: beige;
       transition: 0.5s ease-in-out;
       transform: scaleX(1); }
     body .animation:hover:after {
@@ -191,16 +220,23 @@ h2 {
     body .foryouuu {
       margin: 3%;
       padding: 3%; }
-    body .card-img-top {
-      width: 100%;
-      height: 40%; }
+    body .carddd {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem; }
     body .formShipments {
       padding: 10%;
       margin: 10%; }
   /* Footer */
   footer {
     background-color: black;
-    margin-top: 20%; }
+    margin-top: 30%; }
     footer section {
       background-color: black;
       margin-top: -4%; }

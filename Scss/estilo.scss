@@ -2,8 +2,8 @@
 
 /* condicionales */
 @if $temporada=="verano" {
-    h1 {
-        color: $color-verano;
+    body {
+        background-color: $body-color-beige;
     }
 }
 @else if $temporada=="otoño" {
@@ -33,44 +33,59 @@
         color: $color-primavera;
     }
 }
-/* Mixin */
-
-
 
 /* Formato Movil */
 @media screen and (max-width: 400px) {
     body {
         /* Títulos y subtitulos de seccion */
         h1 {
-        text-align: center;
-        margin-top: 3%;
+            text-align: center;
+            margin-top: 3%;
+            font-family: 'Alfa Slab One', cursive;
         }
         h2 {
             text-align: center;
             margin-top: 3%;
         }
         /* Carruseles de imagenes */
+        .imgCarrousel {
+            width: 100%;
+            height: 50%; 
+        }
         .tituloSegundoCarrusel {
-            margin-top: 20% !important;
+            margin-top: 45% !important;
         }
         #carouselExampleIndicatorss {
             margin-top: 20% !important;
         }
         .carousel-inner {
-            margin-left: 25% !important;
-            width: 50% !important;
+            margin-left: 16% !important;
+            width: 70% !important;
         }
         /* tarjetas de la sección "productos" */
         #cards {
             display: grid;
             position: relative;
             grid-template-columns: 1fr;
-            grid-template-rows: 400px;
             justify-items: center;
             align-items: center;
             justify-content: space-evenly;
-            grid-row-gap: 5%;
             margin-top: 12%;
+        }
+        .card {
+            width: 288px;
+            height: 580px;
+            margin-top: 28%;
+        }
+        .card-body {
+            background-color: rgb(223, 223, 189);
+        }
+        .card-text {
+            margin-top: 30%;
+        }
+        .card-img-top {
+            width: 60%;
+            height: 60%;
         }
         /* botones con animación */
         .boton {
@@ -95,7 +110,7 @@
             left: -2px;
             width: calc(100% + 4px);
             height: calc(100% - 12px);
-            background: #fff;
+            background: beige;
             transition: 0.5s ease-in-out;
             transform: scaleY(1);
             transition-delay: 0.5s;
@@ -110,7 +125,7 @@
             top: -2px;
             height: calc(100% + 4px);
             width: calc(100% - 12px);
-            background: #fff;
+            background: beige;
             transition: 0.5s ease-in-out;
             transform: scaleX(1);
         }
@@ -164,18 +179,37 @@
         h1 {
             text-align: center;
             margin-top: 3%;
+            font-family: 'Alfa Slab One', cursive;
         }
         h2 {
             text-align: center;
             margin-top: 3%;
+            font-family: 'Alfa Slab One', cursive;
+        }
+        .fondo {
+            width: 100%;
+            height: 100vh;
         }
         /* Carruseles de imagenes */
+        #carouselExampleIndicators {
+            width: 100%;
+            right: 100;
+        }
+        #carouselExampleIndicatorss {
+            width: 100%;
+            right: 100;
+            top: -200px;
+        }
+        .imgCarrousel {
+            width: 100%;
+            height: 200%;
+        }
         .carousel-inner {
             margin-left: 25%;
             width: 50%;
         }
         .tituloSegundoCarrusel {
-            margin-top: 20% !important;
+            margin-top: -6% !important;
         }
         #carouselExampleIndicatorss {
             margin-top: 20% !important;
@@ -195,6 +229,17 @@
             justify-content: space-evenly;
             grid-row-gap: 30%;
             margin-top: 4%;
+        }
+        .card {
+            width: 288px;
+            height: 580px;
+            margin-top: 28%;
+        }
+        .card-body {
+            background-color: rgb(223, 223, 189);
+        }
+        .card-text {
+            margin-top: 30%;
         }
         /* botones con animación */
         .boton {
@@ -219,7 +264,7 @@
             left: -2px;
             width: calc(100% + 4px);
             height: calc(100% - 12px);
-            background: #fff;
+            background: beige;
             transition: 0.5s ease-in-out;
             transform: scaleY(1);
             transition-delay: 0.5s;
@@ -234,7 +279,7 @@
             top: -2px;
             height: calc(100% + 4px);
             width: calc(100% - 12px);
-            background: #fff;
+            background: beige;
             transition: 0.5s ease-in-out;
             transform: scaleX(1);
         }
@@ -255,19 +300,27 @@
             margin: 3%;
             padding: 3%;
         }
-        .card-img-top {
-            width: 100%;
-            height: 40%;
+        .carddd {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 0.25rem;
         }
         .formShipments {
             padding: 10%;
             margin: 10%;
         }
+        
     }
     /* Footer */
     footer {
         background-color: black;
-        margin-top: 20%;
+        margin-top: 30%;
         section {
             background-color: black;
             margin-top: -4%;
